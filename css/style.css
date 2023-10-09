@@ -1,0 +1,138 @@
+/* 10.1 Текст вебсайту */
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(135deg, #eccdfd 0%, #cdccfe 100%);
+  font-size: 25px;
+}
+
+/* Стилі для header */
+header {
+  text-align: center; /* Текст в центрі */
+  border: 2px solid #000; /* Рамка */
+  margin-bottom: 15px;
+  background-image: linear-gradient(135deg, #e6fdea 0%, #8778fc 100%);
+}
+
+header:hover {
+  background-color: #000; /* Зміна коліру при наведенні */
+  color: white;
+  box-shadow: 2px 2px 5px 5px violet;
+}
+
+h2,h3,h4,h5{
+  text-align: center;
+}
+
+figcaption{
+  text-align: center;
+}
+
+.lidecoration{
+  margin-left: 50px;
+}
+
+p{
+  margin: 15px;
+  text-align: center;
+}
+
+img {
+  opacity: 0.3;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+img:hover{
+  opacity: 1;
+  border: 10px solid #000;
+  display: block;
+  margin: auto;
+
+}
+
+a {
+  color: #007bff; /* Синій колір посилань */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Підкреслення при наведенні */
+  color:darkgrey;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px; /* Відступи між пунктами списку */
+}
+
+/* 10.6 Таблиці */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2; /* Колір фону заголовків таблиці */
+}
+
+.reviews {
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  
+}
+
+
+.review {
+  border-left: 10px double navy;
+  width: 35px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  
+}
+
+.reviewtext::before {
+  content: url("/Users/serhiyboyoh/Desktop/Навчання/WEB_Design/PR_2_WEBD/img/telegram.png");
+  display: inline-block;
+}
+
+
+.review:hover::after {
+  border-bottom: 10px dotted goldenrod;
+}
+
+span {
+  color: firebrick;
+  border-bottom: 1px dotted firebrick;
+}
+
+.review:hover::after{
+  border-bottom: 3px dotted goldenrod;
+}
+
+.review:hover{
+  transform: translateX(65px);
+  transition: 2s ease-out;
+}
+
+footer{
+  text-align: center;
+  border: 2px solid #000; /* Рамка */
+  margin-bottom: 15px;
+  background-image: linear-gradient(135deg, #e6fdea 0%, #8778fc 100%);
+  
+
+}
+
